@@ -14,7 +14,7 @@ import argparse
 def FindSum(x):
     sum = 0
     for i in range(0,x):
-        if i%3 == 0 or i%5 == 0:
+        if 0 == i%3 or 0 == i%5:
             sum = sum + i
     print "The sum of " + str(x) + " is " + str(sum)
 
